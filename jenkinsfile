@@ -1,0 +1,22 @@
+
+pipeline {
+    agent any
+    
+    stages {
+        stage('checkout') {
+            steps
+            {
+                   echo "hello world"
+                  // sh abc.sh
+           }
+        }
+        stage('Build')
+        {
+            steps
+            {
+                  echo "build successfully"
+            }
+        }
+        
+    }
+}
